@@ -70,3 +70,6 @@ echo env('APP_ENV'); // => local
 ```
 
 All environment variables are also stored in `$_ENV`, `$_SERVER`. You can also use these super globals.  
+
+
+Note: the default behavior of `->load()` is not to override existing environment variables. If you wanna override, please use `->load(true)` or `->overload()`.
