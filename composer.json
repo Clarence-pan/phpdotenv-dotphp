@@ -1,0 +1,29 @@
+{
+    "name": "clarence/phpdotenv-dotphp",
+    "description": "A optimize for vlucas/phpdotenv in PHP fastcgi application",
+    "type": "Library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Clarence",
+            "email": "clarence-pan@foxmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Clarence\\DotEnv\\": "src"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    },
+    "autoload-dev":{
+        "Clarence\\DotEnv\\": "tests/"
+    }
+}
