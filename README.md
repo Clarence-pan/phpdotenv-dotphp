@@ -1,4 +1,4 @@
-About This [![](https://travis-ci.org/Clarence-pan/phpdotenv-dotphp)](https://travis-ci.org/Clarence-pan/phpdotenv-dotphp)
+About This [![](https://travis-ci.org/Clarence-pan/phpdotenv-dotphp.svg?branch=master)](https://travis-ci.org/Clarence-pan/phpdotenv-dotphp)
 ==========
 
 This is a optimize for `vlucas/phpdotenv` in PHP fastcgi application. 
